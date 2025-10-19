@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Branda Pro Email Enhancer 
  * Description:       A simple plugin to manage settings for the Branda Pro email template.
- * Version:           1.2 (with Live Preview)
+ * Version:           1.3.1 (with Live Preview)
  * Author:            Heyressgo.com
  * Author URL:        https://heyressgo.com
  */
