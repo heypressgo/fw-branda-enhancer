@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Branda Pro Email Enhancer 
+ * Plugin Name:       Branda Pro Email Enhancer  BPEH
  * Description:       A simple plugin to manage settings for the Branda Pro email template.
  * Version:           1.3.1 (with Live Preview)
  * Author:            Heyressgo.com
