@@ -141,7 +141,7 @@ function fwbe_options_page_html() {
                 <div id="email-preview-wrap" style="background-color: <?php echo esc_attr($options['background_color'] ?? '#f6f9fc'); ?>">
                     <img id="preview-logo" class="email-preview-logo" src="<?php echo esc_url($options['logo_url'] ?? ''); ?>" alt="Logo Preview" style="display: <?php echo empty($options['logo_url']) ? 'none' : 'block'; ?>;">
                     <div class="email-preview-content">
-                        <p>Hi [Customer Name],</p>
+                        <p>Hi Mr Trump,</p>
                         <p>This is where the main content of your email will go. The design is controlled by your settings.</p>
                         <p>Thanks,<br>The <span id="preview-from-name"><?php echo esc_html($options['from_name'] ?? get_bloginfo('name')); ?></span> team</p>
                     </div>
