@@ -109,7 +109,7 @@ function fwbe_enqueue_admin_scripts($hook_suffix) {
         .fwbe-preview-pane { flex: 1; min-width: 320px; background-color: #f0f0f1; padding: 20px; border-radius: 4px; position: sticky; top: 50px; }
         .fwbe-preview-pane h2 { margin-top: 0; padding-bottom: 10px; border-bottom: 1px solid #ddd; }
         .email-preview-wrap { padding: 20px; text-align: center; font-family: Helvetica, Arial, sans-serif; transition: background-color 0.3s ease; border: 1px solid #ddd; }
-        .email-preview-logo { max-width: 150px; margin: 0 auto 20px auto; display: block; }
+        .email-preview-logo { max-width: 150px; margin: 0 auto 20px auto; display: block; padding-top: 20px; }
         .email-preview-content { background-color: #ffffff; padding: 20px; text-align: left; font-size: 14px; line-height: 1.5; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 20px; margin-left: 20px; margin-right: 20px; /* Added margin */ }
         .email-preview-footer { font-size: 10px; color: #8898aa; padding: 0; }
     ";
