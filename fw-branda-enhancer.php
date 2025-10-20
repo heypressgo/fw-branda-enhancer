@@ -71,19 +71,19 @@ function fwbe_field_from_email_cb() {
 
 function fwbe_field_footer_line_1_cb() {
     $options = get_option('fwbe_options');
-    $value = isset($options['footer_line_1']) ? $options['footer_line_1'] : "This email is a transactional email only from the Framer's Warehouse website.";
+    $value = isset($options['footer_line_1']) ? $options['footer_line_1'] : "This email is a transactional email only from the Warehouse website.";
     echo '<input type="text" id="fwbe_footer_line_1" name="fwbe_options[footer_line_1]" value="' . esc_attr($value) . '" class="regular-text">';
 }
 
 function fwbe_field_footer_line_2_cb() {
     $options = get_option('fwbe_options');
-    $value = isset($options['footer_line_2']) ? $options['footer_line_2'] : "1/80 Darley St, Mona Vale NSW 2103";
+    $value = isset($options['footer_line_2']) ? $options['footer_line_2'] : "1/2103 Darley St, Mona Vale NSW 2103";
     echo '<input type="text" id="fwbe_footer_line_2" name="fwbe_options[footer_line_2]" value="' . esc_attr($value) . '" class="regular-text">';
 }
 
 function fwbe_field_footer_line_3_cb() {
     $options = get_option('fwbe_options');
-    $value = isset($options['footer_line_3']) ? $options['footer_line_3'] : "(02) 9997 8451";
+    $value = isset($options['footer_line_3']) ? $options['footer_line_3'] : "(02) 9999 9999";
     echo '<input type="text" id="fwbe_footer_line_3" name="fwbe_options[footer_line_3]" value="' . esc_attr($value) . '" class="regular-text">';
 }
 
