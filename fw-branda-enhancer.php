@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name:       Branda Pro Email Enhancer  BPEH
- * Description:       A simple plugin to manage settings for the Branda Pro email template.
+ * Plugin Name:       Clean Email Design
+ * Description:       A simple plugin to manage settings for the email template, which sends a clean html email using Branda Pro
  * Version:           1.3.4
  * Author:            James @ Heypressgo.com
- * Author URL:        https://heyressgo.com
+ * Author URL:        https://heypressgo.com
  */
 
 if (!defined('ABSPATH')) {
