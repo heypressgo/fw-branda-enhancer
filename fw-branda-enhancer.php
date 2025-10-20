@@ -217,3 +217,32 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 
 // Optional: For PRIVATE GitHub repos, uncomment the line below and add your token.
 // $myUpdateChecker->setAuthentication('YOUR_PERSONAL_ACCESS_TOKEN_HERE');
+
+
+/**
+ * Integrates our custom template directly into Branda Pro's template chooser.
+ *
+ * @param array $templates The existing array of Branda templates.
+ * @return array The modified array of templates.
+ */
+function fwbe_add_template_to_branda($templates) {
+    // Define the path to our template file
+    $template_path = plugin_dir_path(__FILE__) . 'template.html';
+    
+    // Check if the file exists and read its content
+    if ( file_exists($template_path) ) {
+        $template_content = file_get_contents($template_path);
+
+        // Add our custom template to Branda's list
+        // 'fw_custom_template' is a unique key for our template
+        // 'name' is what the user sees in the Branda UI
+        $templates['fw_custom_template'] = array(
+            'name'     => 'Custom Modern Template', 
+            'template' => $template_content,
+        );
+    }
+    
+    return $templates; // Return the modified list
+}
+// Hook into Branda's filter for email templates
+add_filter('branda_get_email_templates', 'fwbe_add_template_to_branda');
