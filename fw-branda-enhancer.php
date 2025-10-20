@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Clean Email Design
  * Description:       A simple plugin to manage settings for the email template, which sends a clean html email using Branda Pro
- * Version:           1.3.4
+ * Version:           1.3.5
  * Author:            James @ Heypressgo.com
  * Author URL:        https://heypressgo.com
  */
